@@ -1,0 +1,37 @@
+@import "src/assets/scss/colors";
+@import "src/assets/scss/variables";
+@import "src/assets/scss/class-group";
+
+$badges: sea-light ;
+.main-badge{
+  height: 24px!important;
+  padding:3px 14px!important;
+  font-size: 12px!important;
+  font-style: normal!important;
+  font-weight: 400!important;
+  line-height: normal!important;
+  display:inline-flex!important;
+  border-radius: 10px;
+  justify-content: center!important;
+  align-items: center!important;
+  &.main-badge-info{
+    background-color: $sea-light-color!important;
+    color: $sea-light-text-color!important;
+  }
+  &.main-badge-warning{
+    background-color: $sunset-light-color!important;
+    color: $sunset-light-text-color!important;
+  }
+  &.main-badge-danger{
+    background-color: $danger-2-color!important;
+    color: $danger-2-text-color!important;
+  }
+  &.main-badge-moon-light{
+    background-color: $moon-light-color!important;
+    color: $moon-light-text-color!important;
+  }
+  &.main-badge-green-2{
+    background-color: $green-2-color!important;
+    color: $green-2-text-color!important;
+  }
+}

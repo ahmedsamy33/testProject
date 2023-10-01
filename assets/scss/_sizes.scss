@@ -1,0 +1,158 @@
+$max-size-px: 200;
+$max-size-rem: 10;
+$max-weight: 9;
+$line-heights: 1, normal;
+$directions: top, right, bottom, left;
+$spacing: margin, padding;
+@each $line-height in $line-heights {
+  .line-height-#{$line-height} {
+    line-height: #{$line-height}!important;
+  }
+}
+
+@for $i from 1 through $max-size-px {
+  .font-size-#{$i}-px {
+    font-size: #{$i}+'px'!important;
+  }
+  .border-radius-#{$i}-px {
+    border-radius: #{$i}+'px'!important;
+    -webkit-border-radius: #{$i}+'px'!important;
+    -moz-border-radius: #{$i}+'px'!important;
+    -ms-border-radius: #{$i}+'px'!important;
+    -o-border-radius: #{$i}+'px'!important;
+  }
+  .w-#{$i}-px {
+    width: #{$i}+'px'!important;
+  }
+  .max-w-#{$i}-px {
+    max-width: #{$i}+'px'!important;
+  }
+  .min-w-#{$i}-px {
+    min-width: #{$i}+'px'!important;
+  }
+  .h-#{$i}-px {
+    height: #{$i}+'px'!important;
+  }
+  .max-h-#{$i}-px {
+    max-height: #{$i}+'px'!important;
+  }
+  .min-h-#{$i}-px {
+    min-height: #{$i}+'px'!important;
+  }
+  @each $spacingItem in $spacing {
+    $shortSpacingItem: str-slice($spacingItem, 1, 1);
+    .#{$shortSpacingItem}-#{$i}-px {
+      #{$spacingItem}: #{$i}+'px'!important;
+    }
+    .#{$shortSpacingItem}x-#{$i}-px {
+      #{$spacingItem}-left: #{$i}+'px'!important;
+      #{$spacingItem}-right: #{$i}+'px'!important;
+    }
+    .#{$shortSpacingItem}y-#{$i}-px {
+      #{$spacingItem}-top: #{$i}+'px'!important;
+      #{$spacingItem}-bottom: #{$i}+'px'!important;
+    }
+    // minus
+    .#{$shortSpacingItem}-m-#{$i}-px {
+      #{$spacingItem}: -#{$i}+'px'!important;
+    }
+    .#{$shortSpacingItem}x-m-#{$i}-px {
+      #{$spacingItem}-left: -#{$i}+'px'!important;
+      #{$spacingItem}-right: -#{$i}+'px'!important;
+    }
+    .#{$shortSpacingItem}y-m-#{$i}-px {
+      #{$spacingItem}-top: -#{$i}+'px'!important;
+      #{$spacingItem}-bottom: -#{$i}+'px'!important;
+    }
+    @each $direction in $directions {
+      $shortDirection: str-slice($direction, 1, 1);
+      .#{$shortSpacingItem}#{$shortDirection}-#{$i}-px {
+        #{$spacingItem}-#{$direction}: #{$i}+'px'!important;
+      }
+      //minus
+      .#{$shortSpacingItem}#{$shortDirection}-m-#{$i}-px {
+        #{$spacingItem}-#{$direction}: -#{$i}+'px'!important;
+      }
+    }
+
+  }
+
+}
+
+@for $i from 1 through $max-size-rem {
+  .font-size-#{$i}-rem {
+    font-size: #{$i}+'rem'!important;
+  }
+  .border-radius-#{$i}-rem {
+    border-radius: #{$i}+'rem'!important;
+    -webkit-border-radius: #{$i}+'rem'!important;
+    -moz-border-radius: #{$i}+'rem'!important;
+    -ms-border-radius: #{$i}+'rem'!important;
+    -o-border-radius: #{$i}+'rem'!important;
+  }
+  .w-#{$i}-rem {
+    width: #{$i}+'rem'!important;
+  }
+  .max-w-#{$i}-rem {
+    max-width: #{$i}+'rem'!important;
+  }
+  .min-w-#{$i}-rem {
+    min-width: #{$i}+'rem'!important;
+  }
+  .h-#{$i}-rem {
+    height: #{$i}+'rem'!important;
+  }
+  .max-h-#{$i}-rem {
+    max-height: #{$i}+'rem'!important;
+  }
+  .min-h-#{$i}-rem {
+    min-height: #{$i}+'rem'!important;
+  }
+  @each $spacingItem in $spacing {
+    $shortSpacingItem: str-slice($spacingItem, 1, 1);
+    .#{$shortSpacingItem}-#{$i}-rem {
+      #{$spacingItem}: #{$i}+'rem'!important;
+    }
+    .#{$shortSpacingItem}x-#{$i}-rem {
+      #{$spacingItem}-left: #{$i}+'rem'!important;
+      #{$spacingItem}-right: #{$i}+'rem'!important;
+    }
+    .#{$shortSpacingItem}y-#{$i}-rem {
+      #{$spacingItem}-top: #{$i}+'rem'!important;
+      #{$spacingItem}-bottom: #{$i}+'rem'!important;
+    }
+    // minus
+    .#{$shortSpacingItem}-m-#{$i}-rem {
+      #{$spacingItem}: -#{$i}+'rem'!important;
+    }
+    .#{$shortSpacingItem}x-m-#{$i}-rem {
+      #{$spacingItem}-left: -#{$i}+'rem'!important;
+      #{$spacingItem}-right: -#{$i}+'rem'!important;
+    }
+    .#{$shortSpacingItem}y-m-#{$i}-rem {
+      #{$spacingItem}-top: -#{$i}+'rem'!important;
+      #{$spacingItem}-bottom: -#{$i}+'rem'!important;
+    }
+    @each $direction in $directions {
+      $shortDirection: str-slice($direction, 1, 1);
+      .#{$shortSpacingItem}#{$shortDirection}-#{$i}-rem {
+        #{$spacingItem}-#{$direction}: #{$i}+'rem'!important;
+      }
+      //minus
+      .#{$shortSpacingItem}#{$shortDirection}-m-#{$i}-rem {
+        #{$spacingItem}-#{$direction}: -#{$i}+'rem'!important;
+      }
+    }
+
+  }
+}
+
+@for $i from 1 through $max-weight {
+  $font-weight: 100 * $i;
+  .font-weight-#{$font-weight} {
+    font-weight:#{$font-weight}!important;
+  }
+}
+
+
+

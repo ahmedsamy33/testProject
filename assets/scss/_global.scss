@@ -1,0 +1,19 @@
+@import "src/assets/scss/variables";
+*{
+  font-family: Poppins;
+}
+a{
+  text-decoration: none!important;
+  cursor: pointer!important;
+}
+
+.buttons-group-space{
+  content: "";
+  display: inline-block;
+  height: 100%;
+  width: $buttons-group-space;
+}
+
+.cursor-pointer{
+  cursor: pointer;
+}

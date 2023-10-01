@@ -1,0 +1,63 @@
+@import "src/assets/scss/colors";
+@import "src/assets/scss/variables";
+@import "src/assets/scss/class-group";
+::ng-deep{
+  .main-dynamic-form{
+    mat-label{
+      display: block!important;
+      margin-bottom: 8px!important;
+    }
+    mat-form-field{
+      width: 100%;
+      .mat-mdc-text-field-wrapper{
+        @extend .transition-smooth;
+        background-color: $gray-50-color!important;
+        border-radius: 10px!important;
+        -webkit-border-radius: 10px!important;
+        -moz-border-radius: 10px!important;
+        -ms-border-radius: 10px!important;
+        -o-border-radius: 10px!important;
+        border: 1px solid transparent;
+        input{
+          color: $black-color!important;
+          caret-color: $primary-color!important;
+          &::placeholder{
+            color: $secondary-color!important;
+          }
+        }
+        .mat-mdc-form-field-focus-overlay {
+          display: none!important;
+        }
+        &:hover,&:active, &.mdc-text-field--focused{
+          border-color: $primary-color!important;
+        }
+      }
+      .mat-mdc-form-field-bottom-align{
+        display: none!important;
+      }
+      .mdc-line-ripple{
+        display: none!important;
+      }
+      .mat-mdc-form-field-icon-suffix >:first-child{
+        color: $primary-color!important;
+      }
+      .mat-form-content{
+        width: 100%!important;
+        .mat-mdc-select{
+          .mat-mdc-select-arrow-wrapper{
+            background-image: url('/assets/icons/arrow-down.svg');
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: center;
+            transform: rotate(0deg);
+            width: 24px;
+            height: 24px;
+            svg{
+              display: none;
+            }
+          }
+        }
+      }
+    }
+  }
+}

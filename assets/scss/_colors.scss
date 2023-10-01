@@ -1,0 +1,89 @@
+$primary-color: #EB7E96;
+$primary-hover-color: #D47187;
+$primary-dark-color: #B05F71;
+$primary-normal-color: #BC6578;
+$primary-white-color: #FDF2F5;
+$primary-light-hover-color: #FCECEF;
+$rose-light-color: #fff7f6;
+$secondary-color: #838289;
+$gray-color: #bbbac4;
+$gray-hover-color: #bbbac4;
+$gray-light-color: #E9E9EC;
+$gray-light-hover-color: #dedee3;
+$success-color: #4BAE4F;
+$green-color: #27AE60;
+$danger-color: #dc3545;
+$error-color: #F34235;
+$warning-color: #ffc107;
+$info-color: #17a2b8;
+$blue-2-color: #2D9CDB;
+$black-color: #232241;
+$yellow-color: #F4A525;
+$white-color: #FFF;
+$gray-1-color: #333;
+$gray-50-color: #f8f8f9;
+$gray-75-color: #E3E3E7;
+$gray-100-color: #d8d7dd;
+$gray-400-color: #838289;
+$gray-500-color: #727178;
+$purple-light-color: #F1EDF0;
+$rose-normal-hover-color: #E1A095;
+$sea-light-color: rgba(66, 214, 223, .1);
+$sea-light-text-color: rgba(66, 214, 223);
+$sunset-light-color: rgba(255, 106, 57, .1);
+$sunset-light-text-color: rgba(255, 106, 57, 1);
+$moon-light-color: rgba(180, 108, 230, .1);
+$moon-light-text-color: rgba(180, 108, 230, 1);
+$green-2-color: rgba(39, 174, 96, .1);
+$green-2-text-color: rgba(39, 174, 96, 1);
+$danger-2-color: rgba(255, 55, 94, .1);
+$danger-2-text-color: rgba(255, 55, 94, 1);
+$primary-gradient-color: linear-gradient(90deg, $primary-color 0%, $yellow-color 100%);
+$primary-gradient-hover-color: $primary-hover-color;
+
+
+@each $color-name, $color-value in (
+  "primary": $primary-color,
+  "primary-hover": $primary-hover-color,
+  "primary-dark": $primary-dark-color,
+  "primary-normal": $primary-normal-color,
+  "primary-white": $primary-white-color,
+  "primary-light-hover": $primary-light-hover-color,
+  "primary-gradient": $primary-gradient-color,
+  "primary-gradient-hover": $primary-gradient-hover-color,
+  "rose-light": $rose-light-color,
+  "secondary": $secondary-color,
+  "gray": $gray-color,
+  "gray-hover": $gray-hover-color,
+  "gray-light": $gray-light-color,
+  "gray-light-hover": $gray-light-hover-color,
+  "success": $success-color,
+  "danger": $danger-color,
+  "error": $error-color,
+  "warning": $warning-color,
+  "info": $info-color,
+  "blue-2": $blue-2-color,
+  "black": $black-color,
+  "yellow": $yellow-color,
+  "white": $white-color,
+  "green": $green-color,
+  "gray-1": $gray-1-color,
+  "gray-50": $gray-50-color,
+  "gray-75": $gray-75-color,
+  "gray-400": $gray-400-color,
+  "gray-500": $gray-500-color,
+  "purple-light": $purple-light-color,
+  "rose-normal-hover": $rose-normal-hover-color,
+) {
+  .text-color-#{$color-name} {
+    color: $color-value!important;
+  }
+  .bg-color-#{$color-name} {
+    background-color: $color-value!important;
+  }
+  .bg-image-#{$color-name} {
+    background-image: $color-value!important;
+  }
+}
+
+
