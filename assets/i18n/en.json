@@ -1,0 +1,162 @@
+{
+  "general":{
+    "eventName":"event-name",
+    "category":"Category",
+    "city":"City",
+    "search":"Search",
+    "seeMore":"See More",
+    "thingsToDo":"Things to do",
+    "events":"Events",
+    "eatDrink":"Eat & Drink",
+    "destinations":"Destinations",
+    "paymentMethods":"Payment Methods",
+    "login":"Login",
+    "loading":"Loading ...",
+    "FAQ":"FAQ",
+    "validators":{
+      "errors":{
+        "required":"{{field}} is required",
+        "email":"{{field}} is invalid",
+        "maxLength":"{{field}} max length must be {{maxLength}}",
+        "minLength":"{{field}} min length must be {{minLength}}",
+        "max":"{{field}} max must be {{max}}",
+        "min":"{{field}} min must be {{min}}"
+      }
+    }
+  },
+  "header":{
+    "info":{
+      "currentLang":"English",
+      "wishlist":"Wishlist",
+      "JOD":"JOD",
+      "$":"$",
+      "sunny":"sunny",
+      "am":"AM",
+      "pm":"PM",
+      "otherLangs":[
+        {"title":"Arabic", "value":"ar"}
+      ]
+    },
+    "nav":{
+      "myAccount":"My Account",
+      "myTickets":"My Tickets",
+      "preferences":"Preferences",
+      "createAccount":"Create Account",
+      "logout":"Logout"
+    }
+  },
+  "home":{
+    "topEvents":"Top Events in Jordan",
+    "historicalPlaces":"Historical Places",
+    "naturalPlaces":"Natural Places",
+    "campingWilderness":"Camping and wilderness",
+    "bestFamiliesSelection":"Best Selection For Families",
+    "importantPlaces":"Places Important for you",
+    "ourPlan":{
+      "title":"This is my first time to visit Jordan",
+      "checkOurPlan":"check our plan"
+    },
+    "blogs":"Blogs"
+  },
+  "auth":{
+    "notForgetPassword":"You don’t forget password?",
+    "formFields":{
+      "emailAddress":{
+        "label":"Email address",
+        "placeholder":"Please enter your email address here."
+      },
+      "password":{
+        "label":"Password",
+        "placeholder":"Please enter your password here."
+      }
+    },
+    "register":{
+      "title":"Create new account",
+      "formFields":{
+        "name":{
+          "label":"Name",
+          "placeholder":"Please enter your name here."
+        },
+        "phoneNumber":{
+          "label":"Phone Number",
+          "placeholder":"Please enter your phone number here."
+        },
+        "dateOfBirth":{
+          "label":"Date Of birth",
+          "placeholder":"Please enter your date of birth here."
+        },
+        "nationality":{
+          "label":"Nationality",
+          "placeholder":"Please select your nationality."
+        },
+        "gender":{
+          "label":"Gender",
+          "placeholder":"Please select your gender.",
+          "options":{
+            "male":"Male",
+            "female":"Female"
+          }
+        }
+      },
+      "acceptTerms":{
+        "click":"By Click on create account you accept",
+        "termsAndConditions":"Terms and conditions",
+        "and":"and",
+        "privacy":"privacy"
+      },
+      "createNewAccount":"Create new account",
+      "haveAccount":"Already have account?",
+      "successMessage":"You are logged in successfully"
+    },
+    "login":{
+      "title":"Login to access your account",
+      "rememberMe":"Remember me",
+      "forgetPassword":"Forget password?",
+      "otherLoginOptions":"Or login with",
+      "notHaveAccount":"You don’t have account?",
+      "createNewOne":"Create new One",
+      "successMessage":"Your account created successfully and we send verification link To your email address"
+    },
+    "forgetPassword":{
+      "title":"Forget password",
+      "sendVerificationEmail":"Send verification email",
+      "successMessage":"We send verification link To your email address"
+    },
+    "resetPassword":{
+      "title":"Reset password",
+      "formFields":{
+        "newPassword":{
+          "label":"New password",
+          "placeholder":"Please enter your new password here."
+        }
+      },
+      "changePassword":"Change Password",
+      "successMessage":"We send verification link To your email address"
+    },
+    "confirmEmail":{
+      "title":"Forget password",
+      "SendVerificationEmail":"Send verification email",
+      "notForgetPassword":"You don’t forget password?",
+      "successMessage":"Your account have been confirm successfully"
+    }
+  },
+  "events":{
+    "eventSearch":{
+      "date":"Date"
+    }
+  },
+  "footer":{
+    "brief":"standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing",
+    "siteMap":"Site Map",
+    "support":"Support",
+    "signUp":"signUp",
+    "signIn":"signIn",
+    "contactUs":"Contact us",
+    "subscribe":{
+      "subscribe":"subscribe",
+      "placholder":"Enter your email"
+    },
+    "copyright":"copyright©️ received for Ticket linker"
+
+  }
+}

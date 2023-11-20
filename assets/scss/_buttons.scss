@@ -14,6 +14,10 @@
   -ms-border-radius: $border-radius-10;
   -o-border-radius: $border-radius-10;
   border: none;
+  outline: none;
+  &:focus, &:active{
+    outline: none;
+  }
   &.main-btn-gray-light{
     background-color: $gray-light-color;
     color: $black-color;

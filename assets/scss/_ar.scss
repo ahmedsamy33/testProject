@@ -1,0 +1,6 @@
+body[lang='ar']{
+  *:not(.cdk-overlay-connected-position-bounding-box){
+    direction: rtl;
+    text-align: start;
+  }
+}

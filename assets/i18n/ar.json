@@ -1,0 +1,161 @@
+{
+  "general":{
+    "eventName":"اسم الفعالية",
+    "category":"الفئة",
+    "city":"المدينة",
+    "search":"بحث",
+    "seeMore":"رؤية المزيد",
+    "thingsToDo":"أشياء للقيام",
+    "events":"فعاليات",
+    "eatDrink":"تناول وشرب",
+    "destinations":"الوجهات",
+    "paymentMethods":"طرق الدفع",
+    "login":"تسجيل الدخول",
+    "loading":"جاري التحميل ...",
+    "FAQ":"الأسئلة الشائعة",
+    "validators":{
+      "errors":{
+        "required":"{{field}} مطلوب",
+        "email":"{{field}} غير صالح",
+        "maxLength":"{{field}} يجب أن يكون الحد الأقصى {{maxLength}}",
+        "minLength":"{{field}} يجب أن يكون الحد الأدنى {{minLength}}",
+        "max":"{{field}} يجب أن يكون الحد الأقصى {{max}}",
+        "min":"{{field}} يجب أن يكون الحد الأدنى {{min}}"
+      }
+    }
+  },
+  "header":{
+    "info":{
+      "currentLang":"العربيه",
+      "wishlist": "قائمة الرغبات",
+      "JOD": "دينار أردني",
+      "$": "دولار",
+      "sunny": "مشمس",
+      "am": "صباحًا",
+      "pm": "مساءً",
+      "otherLangs":[
+        {"title":"الإنجليزيه", "value":"en"}
+      ]
+    },
+    "nav": {
+      "myAccount": "حسابي",
+      "myTickets": "تذاكري",
+      "preferences": "تفضيلات",
+      "createAccount": "إنشاء حساب",
+      "logout": "تسجيل الخروج"
+    }
+  },
+  "home": {
+    "topEvents": "أفضل الفعاليات في الأردن",
+    "historicalPlaces": "أماكن تاريخية",
+    "naturalPlaces":"أماكن طبيعيه",
+    "campingWilderness": "التخييم والبرية",
+    "bestFamiliesSelection": "أفضل اختيار للعائلات",
+    "importantPlaces": "الأماكن المهمة بالنسبة لك",
+    "ourPlan": {
+      "title": "هذه هي مرة تزور فيها الأردن لأول مرة",
+      "checkOurPlan": "تحقق من خطتنا"
+    },
+    "blogs": "المدونات"
+  },
+  "auth": {
+    "notForgetPassword": "هل نسيت كلمة المرور؟",
+    "formFields": {
+      "emailAddress": {
+        "label": "عنوان البريد الإلكتروني",
+        "placeholder": "الرجاء إدخال عنوان بريدك الإلكتروني هنا."
+      },
+      "password": {
+        "label": "كلمة المرور",
+        "placeholder": "الرجاء إدخال كلمة المرور هنا."
+      }
+    },
+    "register": {
+      "title": "إنشاء حساب جديد",
+      "formFields": {
+        "name": {
+          "label": "الاسم",
+          "placeholder": "الرجاء إدخال اسمك هنا."
+        },
+        "phoneNumber": {
+          "label": "رقم الهاتف",
+          "placeholder": "الرجاء إدخال رقم هاتفك هنا."
+        },
+        "dateOfBirth": {
+          "label": "تاريخ الميلاد",
+          "placeholder": "الرجاء إدخال تاريخ ميلادك هنا."
+        },
+        "nationality": {
+          "label": "الجنسية",
+          "placeholder": "الرجاء اختيار جنسيتك."
+        },
+        "gender": {
+          "label": "الجنس",
+          "placeholder": "الرجاء اختيار جنسك.",
+          "options": {
+            "male": "ذكر",
+            "female": "أنثى"
+          }
+        }
+      },
+      "acceptTerms": {
+        "click": "بالنقر على إنشاء حساب، فإنك توافق على",
+        "termsAndConditions": "الشروط والأحكام",
+        "and": "و",
+        "privacy": "سياسة الخصوصية"
+      },
+      "createNewAccount": "إنشاء حساب جديد",
+      "haveAccount": "لديك حساب بالفعل؟",
+      "successMessage": "تم تسجيل دخولك بنجاح"
+    },
+    "login": {
+      "title": "تسجيل الدخول للوصول إلى حسابك",
+      "rememberMe": "تذكرني",
+      "forgetPassword": "نسيت كلمة المرور؟",
+      "otherLoginOptions": "أو تسجيل الدخول باستخدام",
+      "notHaveAccount": "ليس لديك حساب؟",
+      "createNewOne": "إنشاء حساب جديد",
+      "successMessage": "تم إنشاء حسابك بنجاح وتم إرسال رابط التحقق إلى عنوان بريدك الإلكتروني"
+    },
+    "forgetPassword": {
+      "title": "نسيت كلمة المرور",
+      "sendVerificationEmail": "إرسال رسالة التحقق عبر البريد الإلكتروني",
+      "successMessage": "تم إرسال رابط التحقق إلى عنوان بريدك الإلكتروني"
+    },
+    "resetPassword": {
+      "title": "إعادة تعيين كلمة المرور",
+      "formFields": {
+        "newPassword": {
+          "label": "كلمة المرور الجديدة",
+          "placeholder": "الرجاء إدخال كلمة المرور الجديدة هنا."
+        }
+      },
+      "changePassword": "تغيير كلمة المرور",
+      "successMessage": "تم إرسال رابط التحقق إلى عنوان بريدك الإلكتروني"
+    },
+    "confirmEmail": {
+      "title": "تأكيد البريد الإلكتروني",
+      "SendVerificationEmail": "إرسال رسالة التحقق عبر البريد الإلكتروني",
+      "notForgetPassword": "هل نسيت كلمة المرور؟",
+      "successMessage": "تم تأكيد حسابك بنجاح"
+    }
+  },
+  "events":{
+    "eventSearch":{
+      "date":"التاريخ"
+    }
+  },
+  "footer": {
+    "brief": "نص نموذجي قياسي منذ القرن الخامس عشر، عندما استخدم طابع غير معروف نوعًا من الطباعة وخلطه لجعل كتيب الطباعة. لقد نجا ليس فقط خمسة قرون، ولكن أيضًا الانتقال إلى تخطيط النص الإلكتروني، وظلت أساسًا غير تغير. انتشرت في الستينيات مع إصدار ورق Letraset الذي يحتوي",
+    "siteMap": "خريطة الموقع",
+    "support": "الدعم",
+    "signUp": "التسجيل",
+    "signIn": "تسجيل الدخول",
+    "contactUs": "اتصل بنا",
+    "subscribe": {
+      "subscribe": "الاشتراك",
+      "placeholder": "أدخل بريدك الإلكتروني"
+    },
+    "copyright": "حقوق النشر ©️ محفوظة لشركة Ticket linker"
+  }
+}
