@@ -12,6 +12,8 @@
     "paymentMethods":"طرق الدفع",
     "login":"تسجيل الدخول",
     "loading":"جاري التحميل ...",
+    "noDataFound":"لا توجد بيانات",
+    "loadMore":"تحميل المزيد",
     "FAQ":"الأسئلة الشائعة",
     "validators":{
       "errors":{
@@ -88,6 +90,14 @@
         "nationality": {
           "label": "الجنسية",
           "placeholder": "الرجاء اختيار جنسيتك."
+        },
+        "registerType":{
+          "label":"نوع الحساب",
+          "placeholder":"الرجاء اختيار نوع الحساب",
+          "options":{
+            "organization":"مؤسسه",
+            "client":"عميل"
+          }
         },
         "gender": {
           "label": "الجنس",

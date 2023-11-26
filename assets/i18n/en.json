@@ -1,6 +1,6 @@
 {
   "general":{
-    "eventName":"event-name",
+    "eventName":"Event Name",
     "category":"Category",
     "city":"City",
     "search":"Search",
@@ -12,6 +12,8 @@
     "paymentMethods":"Payment Methods",
     "login":"Login",
     "loading":"Loading ...",
+    "noDataFound":"No data found",
+    "loadMore":"Load more",
     "FAQ":"FAQ",
     "validators":{
       "errors":{
@@ -89,6 +91,14 @@
           "label":"Nationality",
           "placeholder":"Please select your nationality."
         },
+        "registerType":{
+          "label":"Register Type",
+          "placeholder":"Please select your registration type.",
+          "options":{
+            "organization":"Organization",
+            "client":"Client"
+          }
+        },
         "gender":{
           "label":"Gender",
           "placeholder":"Please select your gender.",
@@ -154,7 +164,7 @@
     "contactUs":"Contact us",
     "subscribe":{
       "subscribe":"subscribe",
-      "placholder":"Enter your email"
+      "placeholder":"Enter your email"
     },
     "copyright":"copyright©️ received for Ticket linker"
 

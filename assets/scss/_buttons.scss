@@ -44,6 +44,9 @@
     padding: unset;
     background-color: transparent;
   }
+  &:disabled{
+    opacity: .5;
+  }
 }
 
 .main-circle-btn{

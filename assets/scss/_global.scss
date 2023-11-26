@@ -1,6 +1,9 @@
 @import "src/assets/scss/variables";
+@import "src/assets/fonts/fonts";
 *{
-  font-family: Poppins;
+  &:not(.mat-icon){
+    font-family: 'ticket_linker_english', sans-serif!important;
+  }
 }
 a{
   text-decoration: none!important;

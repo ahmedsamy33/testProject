@@ -1,6 +1,20 @@
+@import "src/assets/fonts/fonts";
 body[lang='ar']{
-  *:not(.cdk-overlay-connected-position-bounding-box){
-    direction: rtl;
-    text-align: start;
+  *{
+    &:not(.mat-icon){
+      font-family: 'ticket_linker_arabic', sans-serif!important;
+    }
+    &:not(.cdk-overlay-connected-position-bounding-box){
+      direction: rtl;
+      text-align: start;
+    }
+    &.mat-mdc-option{
+      .mdc-list-item__primary-text{
+        margin-right: unset!important;
+        margin-left: auto!important;
+      }
+    }
   }
+
+
 }
